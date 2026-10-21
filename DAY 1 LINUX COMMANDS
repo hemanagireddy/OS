@@ -1,0 +1,89 @@
+LINUX COMMANDS 
+
+
+1.BASIC NAVIGATION COMMANDS
+
+pwd _  Displays the current directory
+ls _ Lists files and directories
+ls -l _ Lists files with details
+ls -a _ Shows hidden files
+cd directory _ Moves into a directory
+cd .. _ Moves to the parent directory
+cd ~ _ Moves to the home directory
+clear _ Clears the terminal screen
+
+
+2. FILE AND DIRECTORY COMMANDS
+
+touch file.txt _Creates an empty file
+mkdir folder _  Creates a directory
+mkdir -p a/b   _Creates nested directories
+cp file.txt copy.txt_  Copies a file
+mv old.txt new.txt_ Renames or moves a file
+rm file.txt_    Deletes a file
+rmdir folder_   Removes an empty directory
+cat file.txt_   Displays file contents
+less file.txt_  Views a file page by page
+head file.txt_  Displays the first 10 lines
+tail file.txt_  Displays the last 10 lines
+
+
+3. FILE SEARCH AND TEXT COMMANDS 
+
+find . -name "*.txt"_  Finds text files
+grep "error" file.txt _ Searches for a word
+wc -l file.txt _ Counts lines
+sort file.txt _ Sorts lines
+uniq file.txt _ Removes adjacent duplicate lines
+
+4.PERMISSIONS AND USERS
+
+whoami _ Displays the current username
+id _ Displays user and group IDs
+chmod 755 file.sh_ Changes file permissions
+chown user file.txt _ Changes file ownership; may require elevated privileges
+sudo command _ Runs a command with elevated privileges
+
+
+5. SYSTEM INFORMATION COMMANDS
+
+uname -a _	Displays system information
+date _	Displays date and time
+uptime _	Shows how long the system has been running
+free -h _	Displays memory usage
+df -h _	Displays disk space
+du -sh folder _	Shows folder size
+top _	Displays running processes
+ps aux _	Lists running processes
+
+
+6. NETWORKING COMMANDS
+
+
+ip addr _	Displays network interfaces and IP addresses
+ping example.com _	Tests network connectivity
+curl https://example.com _	Makes an HTTP request
+ss -tuln _	Shows listening network sockets
+hostname _	Displays the system hostname
+
+
+7. PROCESS MANAGEMENT
+
+
+ps _	Shows processes
+kill PID _	Requests termination of a process
+jobs _	Lists shell jobs
+history _	Shows previously entered commands
+
+8. PACKAGE MANAGEMENT
+
+UBUNTU / DEBIAN
+sudo apt update _ Updates package lists.
+sudo apt upgrade _ Upgrades installed packages.
+sudo apt install nginx _ Installs Nginx.
+AMAZON LINUX
+sudo dnf update _ Updates packages on supported Amazon Linux versions.
+sudo dnf install nginx _ Installs Nginx where available.
+
+
+
