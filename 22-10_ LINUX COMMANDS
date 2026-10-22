@@ -13,6 +13,7 @@ cd ~ _ Moves to the home directory
 clear _ Clears the terminal screen
 
 
+
 2. FILE AND DIRECTORY COMMANDS
 
 touch file.txt _Creates an empty file
